@@ -87,7 +87,7 @@ button{
     font-size: 1.2vw;
     color: white;
     border-radius: 1vw;
-    box-shadow: ;
+    box-shadow: 0.1vw 0.1vw 0.1vw grey;
 }
 a{
     color: rgb(255,201,101);
