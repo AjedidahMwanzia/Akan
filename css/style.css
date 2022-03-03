@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-image: url(/images/storm.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title{
+    color: white;
+    font-family: 'guci', 'cursive';
+    font-weight: bold;
+    text-align: center;
+}
+.title h1{
+    font-size: 4vw;
+    text-shadow: 2px 2px 5px black;
+}
+.title h2{
+    font-size: 2vw;
+    text-shadow: 2px 2px 5px black;
+}
+/* ......................................................................................................................... */
