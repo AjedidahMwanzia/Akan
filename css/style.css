@@ -55,13 +55,16 @@ body{
     margin-bottom: 0.5vw;
     padding: 1vw;
 }
-.radio{
-    display: flex;
+.text{
+    display: block;
     padding-top: 1vw;
+    margin-left: -2vw;
+    
 }
-.radio input{
+.text input{
     width: 10%;
     height: auto;
+
 }
 button{
     width: 6vw;
@@ -95,7 +98,6 @@ button{
 }
 .footer a{
     color: white;
-    text-decoration: none;
 }
 .footer{
     color: white;
@@ -107,6 +109,10 @@ button{
     margin-left: 1vw;
     text-align: center;
     padding-top: 1vw;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
 }
 
 
