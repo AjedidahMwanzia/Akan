@@ -79,9 +79,18 @@ button{
     width: 100%;
 }
 .card{
-    background-color: rgb(91,133,188);
+    background-color: rgb(33,63,99);
     width: 25%;
-    justify-content: space-around;
+    margin-left: 6vw;
+    margin-top: 3vw;
+    padding: 2vw;
+    font-size: 1.2vw;
+    color: white;
+    border-radius: 1vw;
+    box-shadow: ;
+}
+a{
+    color: rgb(255,201,101);
 }
 
 
