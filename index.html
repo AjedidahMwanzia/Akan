@@ -13,30 +13,34 @@
             <h1>Akan Names</h1>
             <h2>Curious To Know Your Akan Name  ????</h2>
       </div>
-       
-            <div class="form">
+     
+       <form action="">
+            <div id="form" >
                      <h2>Enter Your Details Here!</h2>
                   <div class="part">
                         <label for="number">Year of Birth:</label> <br>
-                        <input type="number"  id="year" placeholder="Year of Birth " name="year" ><br>
+                        <input type="number"  id="year" placeholder="Year of Birth " name="year" required><br>
                   
                         <label for="month">Month of Birth:</label> <br>
-                        <input type="number"  id="month" placeholder="Month of Birth" name="month"> <br>
+                        <input type="number"  id="month" placeholder="Month of Birth" name="month" required> <br>
                  
                         <label for="date">Date of Birth:</label> <br>
-                        <input type="number"  id="date" placeholder="Date of Birth " name="date"> <br>
+                        <input type="number"  id="date" placeholder="Date of Birth " name="date" required> <br>
                         
                         <label for="gender">Gender</label><br>
                        
-                      <div class="text">
-                            <input type="radio"  name="gender" id="male"> Male <br>
+                      <div id="gender">
+                          <label>
+                            <input type="radio" value="male" name="gender" id="male"> Male <br>
                             </label>
-                            <input type="radio"  name="gender" id="female">Female <br>
+                            <input type="radio" value="female" name="gender" id="female">Female <br>
                             </label>
                         </div>
                   </div>
-                  <button type="submit" >Get Name</button>
+                  <button type="button" id="submitButton" >Get Name</button>
+                  <p id="result"></p>
           </div>
+     </form>
           <div class="cards">
               <div class="card">
                   <P>Akan names come from a traditional naming system  for people from countries such as Togo,Ivory Coast  and Ghana. children are given their first name as a 'day name' which corresponds to the day in the week they were born.. </P>
@@ -58,7 +62,7 @@
                </div>
             </div>
    
-
+<script src="js/main.js"></script>
        
 </body>
 </html>
