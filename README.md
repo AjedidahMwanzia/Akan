@@ -4,7 +4,7 @@
 ##### By Ajedidah Mwanzia 
 
 ### Its an Akan name generator.
-<img src="">
+<img src="https://github.com/AjedidahMwanzia/Akan/blob/master/images/pic.png">
 
 
 ## Table of Content
