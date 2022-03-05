@@ -26,7 +26,7 @@
 * An access to the Internet
 
 ### Installation Process
-Here is the live link .Enjoy!
+Here is the live link .Enjoy! https://ajedidahmwanzia.github.io/Akan/
 * clone the link and paste it on your pc
 * cd Akan to open the folder
 * open the folder using vs code or your preferred editor 
