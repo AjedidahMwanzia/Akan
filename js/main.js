@@ -9,20 +9,25 @@
     function validate(year,date,month){
        
         if (year.toString().length!=4){
-            alert("input the correct year format");
+            alert("input the  year in this format E.g 1996");
+            year.style.border = "solid 3px red";
+            return false;
+            
+        }
+        else if (date.toString().length <2) {
+            alert("input date in this format e.g.01 ");
+            date.style.border = "solid 3px red";
             return false;
         }
-        else if (date.toString().length<2){
-            alert("input the correct month")
-            return false;
-        }
+       
         else if (month.toString().length <2){
-            alert("input the correct date")
-            return false;
+            alert("input month in this format e.g.01 ");
+            month.style.border = "solid 3px red";
+            return  false;
         }
         else{
-            console.log("getName")
-        }
+           return true;
+         }
        
     }
   
