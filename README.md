@@ -1,12 +1,8 @@
-# Akan
-
-
-##### By Ajedidah Mwanzia 
-
-### Its an Akan name generator.
+### Akan Name Generator.
 <img src="https://github.com/AjedidahMwanzia/Akan/blob/master/images/pic.png">
 
 
+##### By Ajedidah Mwanzia 
 ## Table of Content
 
 + [Description](#description)
@@ -36,10 +32,9 @@ Here is the live link .Enjoy!
 * Run the code using the live server and enjoy.
 
 ## Technology Used
-* HTML - which was used to build the structure of the pages.
-
-* CSS - which was used to style the pages incuding the left aside navigation bar
-* JAVASCRIPT-
+* HTML 
+* CSS 
+* JAVASCRIPT
 
 ## Reference
 * Materialize CSS
@@ -55,7 +50,10 @@ Here is the live link .Enjoy!
 ## Authors Info
 
 
-Reach me through my social media icons on my website.
+-   Email- [personalmail](mailto:ajedidah.mwanzia@student.moringaschool.com)
+-   Linkedin - [Ajedidah Mwanzia](https://www.linkedin.com/in/ajedidah-mwanzia-493bb9117/)
+-   Portfolio - [Ajedidah Mwanzia](https://ajedidahmwanzia.github.io/portfolio/)
+
 
 
 [Go Back to the top](#Akan)
