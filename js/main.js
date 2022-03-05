@@ -9,16 +9,16 @@
     function validate(year,date,month){
        
         if (year.toString().length!=4){
-            alert("input the correct year");
-            window.stop()
+            alert("input the correct year format");
+            return false;
         }
         else if (date.toString().length<2){
-            alert("input the correct date")
-            window.stop()
+            alert("input the correct month")
+            return false;
         }
         else if (month.toString().length <2){
-            alert("input the correct month")
-            window.stop()
+            alert("input the correct date")
+            return false;
         }
         else{
             console.log("getName")
