@@ -50,7 +50,7 @@ Here is the live link .Enjoy!
 ## Authors Info
 
 
--   Email- [personalmail](mailto:ajedidah.mwanzia@student.moringaschool.com)
+-   Email- [Ajedidah Mwanzia](mailto:ajedidah.mwanzia@student.moringaschool.com)
 -   Linkedin - [Ajedidah Mwanzia](https://www.linkedin.com/in/ajedidah-mwanzia-493bb9117/)
 -   Portfolio - [Ajedidah Mwanzia](https://ajedidahmwanzia.github.io/portfolio/)
 
