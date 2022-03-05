@@ -1,5 +1,6 @@
 ### Akan Name Generator.
-<img src="https://github.com/AjedidahMwanzia/Akan/blob/master/images/pic.png">
+https://drive.google.com/file/d/1rA0Di_6QBXUGwgjX8uWSq4LCsX4tJNob/view
+<!-- <img src="https://github.com/AjedidahMwanzia/Akan/blob/master/images/pic.png"> -->
 
 
 ##### By Ajedidah Mwanzia 
