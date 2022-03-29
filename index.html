@@ -10,60 +10,61 @@
 </head>
 <body>
       <div class="title">
-            <h1>Akan Names</h1>
-            <h2>Curious To Know Your Akan Name  ????</h2>
+             <h2>The Akan Name Generator</h2>
+            <P>Akan names come from a traditional naming system  for people from countries such as Togo,Ivory Coast  and Ghana. children are given their first name as a 'day name' which corresponds to the day in the week they were born.According to Akan tradition, each child is born with a name associated to their soul
+            <a href="https://yen.com.gh/115080-akan-names-meanings.html">Read more...</a> </p>
       </div>
-     
-       <form action=""onclick="return validate()">
-            <div id="form" >
-                     <h2>Enter Your Details Here!</h2>
-                  <div class="part">
-                        <label for="number">Year of Birth:</label> <br>
-                        <input type="number"  id="year" placeholder="Year of Birth e.g. 2022" name="year" required><br>
-                  
-                        <label for="month">Month of Birth:</label> <br>
-                        <input type="number"  id="month" placeholder="Month of Birth e.g. 01" name="month" required> <br>
-                 
-                        <label for="date">Date of Birth:</label> <br>
-                        <input type="number"  id="date" placeholder="Date of Birth  e.g 04" name="date" required> <br>
+       <div class="row">
+            <div class="column" id="card-left" >
+                <img src="./images/ghana1.png" id="image" alt="">
+                <div class="results">
+                  <p id="result"> </p>
+                </div>
+                <div class="reset-btn">
+                   <button type="button" name="reset" value="relode-page" onclick="window.location.reload();" class="btn btn-primary">Clear</button>
+                </div>
+            </div>
+            <div class="column" id="card-right" >
+               <form action=""onclick="return validate()">
+                  <div id="form" >
+                        <h2>Enter Your Details Here!</h2> <br>
+                      <div class="part">
+                            <label for="number"></label> <br>
+                            <input type="number"  id="year" placeholder="Year of Birth e.g. 2022" name="year" required><br>
+                    
+                            <label for="month"></label> <br>
+                            <input type="number"  id="month" placeholder="Month of Birth e.g. 01" name="month" required> <br>
+                    
+                            <label for="date"></label> <br>
+                            <input type="number"  id="date" placeholder="Date of Birth  e.g 04" name="date" required> <br>
+                            
+                            <label for="gender">Gender</label><br>
                         
-                        <label for="gender">Gender</label><br>
-                       
-                      <div id="gender">
-                          <label>
-                            <input type="radio" value="male" name="gender" id="male"> Male <br>
-                            </label>
-                            <label>
-                            <input type="radio" value="female" name="gender" id="female">Female <br>
-                            </label>
-                        </div>
+                           <div id="gender">
+                                <label>
+                                   <input type="radio" value="male" name="gender" id="male"> Male <br>
+                                </label>
+                                <label>
+                                   <input type="radio" value="female" name="gender" id="female">Female <br>
+                                </label>
+                            </div>
+                      </div>
+                      <button type="button" id="submitButton" >Get Name</button>
                   </div>
-                  <button type="button" id="submitButton" >Get Name</button>
-                  <p id="result"></p>
-          </div>
-     </form>
-          <div class="cards">
-              <div class="card">
-                  <P>Akan names come from a traditional naming system  for people from countries such as Togo,Ivory Coast  and Ghana. children are given their first name as a 'day name' which corresponds to the day in the week they were born.. </P>
-              </div>
-              <div class="card">
-                  <p> Ever wondered what the Akan names mean?<br>According to Akan tradition, each child is born with a name associated to their soul</p>
-                  <a href="https://yen.com.gh/115080-akan-names-meanings.html">Read more...</a>
-             </div>
-             <div class="card">
-                 <p>The majority of the Akan people speak  <br> the Twi or Fante language while a few <br>others  speak the Bia language. Each <br> subgroup of the Akan is ruled by a king who is chosen from the royal line of the Kingdom.  </p>
-             </div>
-         </div>
-         <div class="footer">
+              </form>  
+            </div>
+      </div>
+           <div class="footer">
               <p> copyright &copy 2022 Ajedidah Mwanzia</p>
               <div class="icon"> 
-                    <a href="mailto:ajedidah.mwanzia@student.moringaschool.com"><i class="fa-solid fa-envelope"h></i></a>
-                    <a href="https://www.linkedin.com/in/ajedidah-mwanzia-493bb9117/"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://ajedidahmwanzia.github.io/portfolio/"><i class="fa-brands fa-github"></i></a>
+                    <a href="mailto:ajedidah.mwanzia@student.moringaschool.com"><i class="fa-solid fa-envelope "style="color: rgb(33,63,99);" ></i></a>
+                    <a href="https://www.linkedin.com/in/ajedidah-mwanzia-493bb9117/"><i class="fa-brands fa-linkedin "style="color: rgb(33,63,99);"></i></a>
+                    <a href="https://ajedidahmwanzia.github.io/portfolio/"><i class="fa-brands fa-github "style="color: rgb(33,63,99);"></i></a>
                </div>
             </div>
-   
+    
 <script src="js/main.js"></script>
+
        
 </body>
 </html>
